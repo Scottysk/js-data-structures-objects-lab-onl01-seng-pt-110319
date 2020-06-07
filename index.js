@@ -20,5 +20,5 @@ function deleteFromDriverByKey(driver, key) {
   
   newDriver[key] = value;
   
-  
+  return driver;
 }
