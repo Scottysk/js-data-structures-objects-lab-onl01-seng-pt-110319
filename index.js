@@ -12,5 +12,5 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
   
   Driver[key] = value;
   
-  return Driver;
+  return driver;
 }
